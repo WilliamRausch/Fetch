@@ -1,0 +1,12 @@
+.box{
+	display:flex;
+	flex-direction: column-reverse;
+
+
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+}
