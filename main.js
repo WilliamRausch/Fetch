@@ -1,7 +1,7 @@
 let container = document.querySelector(".container");
-
+let input = document.querySelector('input')
 function searchRecipes(){
-fetch("https://recipepuppyproxy.herokuapp.com/api/?i=onions")
+fetch("https://recipepuppyproxy.herokuapp.com/api/?i="+ input.value)
   
   .then(
   
